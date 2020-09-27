@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(226, 226, 226);
+  box-shadow: 2px 3px 4px black;
+  border-radius: 5px;
+  padding: 30px 20px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  display: block;
+  padding: 5px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border: 2px solid blue;
+}
+
+.form-control.error input {
+  border: 2px solid red;
+}
+
+.form-control.success input {
+  border: 2px solid green;
+}
+
+.form-control {
+  margin-top: 5px;
+}
+
+.btn {
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form-control small {
+  visibility: hidden;
+}
